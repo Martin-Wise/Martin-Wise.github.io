@@ -17,11 +17,21 @@
         <main>
             <h1 class="contact-title">This is my Contact.</h1>
             <div class="contact">
-                <div class="contact-image"></div>
-                <div class="contact-text">
-                <p></p>
-                </div>
-            </div> 
+                <form id="contact-form">
+                    <label for="name"><strong>Name</strong> </label>
+                    <input type="text" id="name" required>
+                    <br><br>
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" id="email" required>
+                    <br><br>
+                    <label for="message"><strong>Message</strong></label>
+                    <textarea name="message" id="message" cols="30" rows="1"></textarea required>
+                    <br><br>
+                    <input type="submit">
+
+                </form>
+            </div>
+            <br><br> 
         </main>
         <footer class="footer">© 2023 Wise Works | All Rights Reserved</footer>
     </body>
