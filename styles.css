@@ -64,8 +64,9 @@ body {
 }
 
 .navbar a:hover {
-  color: var(--cg-blue);
-  text-decoration: underline;
+  color: #212529;
+  border-radius: 40px;
+  background-color: #e9ecef;
 }
 
 .navbar a:active {
