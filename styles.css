@@ -2,7 +2,7 @@
   /* variables */
   --cg-black: rgb(30, 32, 32);
   --cg-blue: rgb(36, 94, 255);
-  --cg-grey: rgb(243, 243, 243);
+  --cg-grey: #7f7f7f;
   --cg-white: rgb(255, 255, 255);
 }
 
@@ -34,7 +34,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: #09492e;
+  background-color: #004241;
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -60,17 +60,13 @@ body {
   text-decoration: none;
   letter-spacing: 2px;
   font-size: large;
-  font-family: monospace;
-  border-width: 5px;
-  border: solid pink:
-  
+  font-family: monospace;  
 }
 
 .navbar a:hover {
   color: #f0f2f5;
   border-radius: 10% / 50%;
   background-color: #000000;
-  border-width: 40px;
 }
 
 
